@@ -1,10 +1,25 @@
 $transition-easing: cubic-bezier(0.455, 0.030, 0.515, 0.955);
+
+$brand-color: #930025;
+
 $darkTextColor: #4b4668;
 $lightBackgroundColor: #fff3ec;
+
+
+html 
+{
+    background-image: url('./img/quiz-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
 body {
     padding: 50px 0;
-    background-color: $lightBackgroundColor;
+    //background-color: $lightBackgroundColor;
+    background-color: rgba(255, 243, 236, .95);
     color: $darkTextColor;
+    height: 100vh;
+    
 }
 h1 {
     text-align: center;
@@ -13,10 +28,12 @@ h1 {
     color: $darkTextColor;
 }
 header {
-    margin-bottom: 50px;
+    // margin-bottom: 50px;
     text-align: center;
     position: relative;
-    min-height: 90px;
+    height: 150px;
+    margin-bottom: 90px;
+    // min-height: 90px;
     img {
         max-width: 120px;
         position: absolute;
@@ -324,11 +341,12 @@ header {
         max-width: 720px;
     }
     header {
-        padding-top: 40px;
-        margin-bottom: 60px;
-        min-height:210px;
+        // padding-top: 40px;
+        // margin-bottom: 60px;
+        // min-height:210px;
+        //overflow:auto;
         img {
-            min-width: 235px;
+            width: 100px;
         }
     }
     h1 {

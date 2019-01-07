@@ -4,55 +4,55 @@ const data = {
             "_id": "59484d1e70ff45d3f6f920f7",
             "index": 0,
             "image": "https://ihatetomatoes.net/react-tutorials/abc-quiz/images/plane.svg",
-            "question": "Which is the oldest airline in the world?",
+            "question": "Quel est le meilleur journaliste au Temps selon vous?",
             "choices": [
-                "Avianca",
-                "KLM",
-                "Qantas"
+                "Adolph Zemmour",
+                "Olivier Perrin",
+                "Black Jacques"
             ]
         },
         {
             "_id": "59484d1e31d49d6d6c861a5a",
             "index": 1,
             "image": "https://ihatetomatoes.net/react-tutorials/abc-quiz/images/ship.svg",
-            "question": "Which is the largest port in the world?",
+            "question": "Combien pèse le conseiller fédéral le plus lourd?",
             "choices": [
-                "Port of Shanghai",
-                "Port of Singapore",
-                "Port of Rotterdam"
+                "50kg",
+                "87kg",
+                "91kg"
             ]
         },
         {
             "_id": "59484d1e4a27e54e437b16cf",
             "index": 2,
             "image": "https://ihatetomatoes.net/react-tutorials/abc-quiz/images/bycicle.svg",
-            "question": "What is the longest distance cycling backwards?",
+            "question": "Dans les titres suivants, lequelle n'appartient pas à Ringier?",
             "choices": [
-                "89.30 km",
-                "675.10 km",
-                "337.60 km"
+                "Le Temps",
+                "Pme Magazine",
+                "Chasse et pêche"
             ]
         },
         {
             "_id": "59484d1e9432aa348ec1e50b",
             "index": 3,
             "image": "https://ihatetomatoes.net/react-tutorials/abc-quiz/images/bus.svg",
-            "question": "What is the highest speed ever reached by a school bus?",
+            "question": "Combien de verre peut boire Lionel avant d'entonner une Marseillaise approximative?",
             "choices": [
-                "590 km/h",
-                "320 km/h",
-                "245 km/h"
+                "3 verres",
+                "5 verres",
+                "12 verres"
             ]
         },
         {
             "_id": "59484d1e4b638e11dcc762e0",
             "index": 4,
             "image": "https://ihatetomatoes.net/react-tutorials/abc-quiz/images/car.svg",
-            "question": "What is the longest car trip on one tank of gas?",
+            "question": "Combien de chambre à air de vélo Fabien crève-t-il par année en moyenne?",
             "choices": [
-                "2617 km",
-                "3568 km",
-                "1732 km"
+                "Aucune",
+                "2 chambres à air",
+                "9 chambres à air"
             ]
         }
     ]

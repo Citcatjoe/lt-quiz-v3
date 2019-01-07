@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import Choices from './Choices';
 
 
-const Question = ({currentQuestion, onSelectAnswer}) => {
+const Question = ({ currentQuestion, onSelectAnswer, loadingNewQuestion}) => {
     const {question, choices} = currentQuestion;
     return (
-        <div className={`question`}>
+        <div className={`question fade-out ${loadingNewQuestion ? 'fade-out-active' : 'question'}`}>
 
             <h1>{question}</h1>
 
@@ -18,8 +18,9 @@ const Question = ({currentQuestion, onSelectAnswer}) => {
 
 
 Question.propTypes = {
-    currentQuestion: PropTypes.object.isRequired,
-    onSelectAnswer: PropTypes.func.isRequired
+  currentQuestion: PropTypes.object.isRequired,
+  onSelectAnswer: PropTypes.func.isRequired,
+  loadingNewQuestion: PropTypes.bool.isRequired
 };
 
 
